@@ -1,0 +1,552 @@
+[
+ {
+  "name": "view 0: no placeholder leaks (NaN/undefined/null/[object])",
+  "pass": true,
+  "detail": "[]"
+ },
+ {
+  "name": "view 1: no placeholder leaks (NaN/undefined/null/[object])",
+  "pass": true,
+  "detail": "[]"
+ },
+ {
+  "name": "view 2: no placeholder leaks (NaN/undefined/null/[object])",
+  "pass": true,
+  "detail": "[]"
+ },
+ {
+  "name": "view 3: no placeholder leaks (NaN/undefined/null/[object])",
+  "pass": true,
+  "detail": "[]"
+ },
+ {
+  "name": "view 4: no placeholder leaks (NaN/undefined/null/[object])",
+  "pass": true,
+  "detail": "[]"
+ },
+ {
+  "name": "view 5: no placeholder leaks (NaN/undefined/null/[object])",
+  "pass": true,
+  "detail": "[]"
+ },
+ {
+  "name": "view 6: no placeholder leaks (NaN/undefined/null/[object])",
+  "pass": true,
+  "detail": "[]"
+ },
+ {
+  "name": "view 7: no placeholder leaks (NaN/undefined/null/[object])",
+  "pass": true,
+  "detail": "[]"
+ },
+ {
+  "name": "view 8: no placeholder leaks (NaN/undefined/null/[object])",
+  "pass": true,
+  "detail": "[]"
+ },
+ {
+  "name": "view 9: no placeholder leaks (NaN/undefined/null/[object])",
+  "pass": true,
+  "detail": "[]"
+ },
+ {
+  "name": "view 10: no placeholder leaks (NaN/undefined/null/[object])",
+  "pass": true,
+  "detail": "[]"
+ },
+ {
+  "name": "view 11: no placeholder leaks (NaN/undefined/null/[object])",
+  "pass": true,
+  "detail": "[]"
+ },
+ {
+  "name": "view 12: no placeholder leaks (NaN/undefined/null/[object])",
+  "pass": true,
+  "detail": "[]"
+ },
+ {
+  "name": "view 13: no placeholder leaks (NaN/undefined/null/[object])",
+  "pass": true,
+  "detail": "[]"
+ },
+ {
+  "name": "view 14: no placeholder leaks (NaN/undefined/null/[object])",
+  "pass": true,
+  "detail": "[]"
+ },
+ {
+  "name": "PL has 20 players",
+  "pass": true,
+  "detail": "20"
+ },
+ {
+  "name": "dossier BAT01 Pathum Nissanka: full name in heading",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "dossier BAT01: no placeholder leaks",
+  "pass": true,
+  "detail": "[]"
+ },
+ {
+  "name": "dossier BAT02 Shimron Hetmyer: full name in heading",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "dossier BAT02: no placeholder leaks",
+  "pass": true,
+  "detail": "[]"
+ },
+ {
+  "name": "dossier BAT03 Nitish Rana: full name in heading",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "dossier BAT03: no placeholder leaks",
+  "pass": true,
+  "detail": "[]"
+ },
+ {
+  "name": "dossier BAT04 Nehal Wadhera: full name in heading",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "dossier BAT04: no placeholder leaks",
+  "pass": true,
+  "detail": "[]"
+ },
+ {
+  "name": "dossier BAT05 Abishek Porel: full name in heading",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "dossier BAT05: no placeholder leaks",
+  "pass": true,
+  "detail": "[]"
+ },
+ {
+  "name": "dossier BAT06 Rahul Tripathi: full name in heading",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "dossier BAT06: no placeholder leaks",
+  "pass": true,
+  "detail": "[]"
+ },
+ {
+  "name": "dossier BAT07 Rachin Ravindra: full name in heading",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "dossier BAT07: no placeholder leaks",
+  "pass": true,
+  "detail": "[]"
+ },
+ {
+  "name": "dossier BAT08 Ackeem Auguste: full name in heading",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "dossier BAT08: no placeholder leaks",
+  "pass": true,
+  "detail": "[]"
+ },
+ {
+  "name": "dossier BAT08 Ackeem Auguste: degenerate score shown as N/A, not a number",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "dossier BAT09 Sediqullah Atal: full name in heading",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "dossier BAT09: no placeholder leaks",
+  "pass": true,
+  "detail": "[]"
+ },
+ {
+  "name": "dossier BAT09 Sediqullah Atal: degenerate score shown as N/A, not a number",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "dossier BAT10 Salil Arora: full name in heading",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "dossier BAT10: no placeholder leaks",
+  "pass": true,
+  "detail": "[]"
+ },
+ {
+  "name": "dossier BAT10 Salil Arora: degenerate score shown as N/A, not a number",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "dossier BWL01 Wanindu Hasaranga: full name in heading",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "dossier BWL01: no placeholder leaks",
+  "pass": true,
+  "detail": "[]"
+ },
+ {
+  "name": "dossier BWL02 Mustafizur Rahman: full name in heading",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "dossier BWL02: no placeholder leaks",
+  "pass": true,
+  "detail": "[]"
+ },
+ {
+  "name": "dossier BWL03 Avesh Khan: full name in heading",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "dossier BWL03: no placeholder leaks",
+  "pass": true,
+  "detail": "[]"
+ },
+ {
+  "name": "dossier BWL04 Trent Boult: full name in heading",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "dossier BWL04: no placeholder leaks",
+  "pass": true,
+  "detail": "[]"
+ },
+ {
+  "name": "dossier BWL04 Trent Boult: degenerate score shown as N/A, not a number",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "dossier BWL05 Matheesha Pathirana: full name in heading",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "dossier BWL05: no placeholder leaks",
+  "pass": true,
+  "detail": "[]"
+ },
+ {
+  "name": "dossier BWL06 Allah Ghazanfar: full name in heading",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "dossier BWL06: no placeholder leaks",
+  "pass": true,
+  "detail": "[]"
+ },
+ {
+  "name": "dossier BWL07 Deepak Chahar: full name in heading",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "dossier BWL07: no placeholder leaks",
+  "pass": true,
+  "detail": "[]"
+ },
+ {
+  "name": "dossier BWL07 Deepak Chahar: degenerate score shown as N/A, not a number",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "dossier BWL08 Tristan Luus: full name in heading",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "dossier BWL08: no placeholder leaks",
+  "pass": true,
+  "detail": "[]"
+ },
+ {
+  "name": "dossier BWL08 Tristan Luus: degenerate score shown as N/A, not a number",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "dossier BWL09 Yash Thakur: full name in heading",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "dossier BWL09: no placeholder leaks",
+  "pass": true,
+  "detail": "[]"
+ },
+ {
+  "name": "dossier BWL09 Yash Thakur: degenerate score shown as N/A, not a number",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "dossier BWL10 Chama Milind: full name in heading",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "dossier BWL10: no placeholder leaks",
+  "pass": true,
+  "detail": "[]"
+ },
+ {
+  "name": "dossier BWL10 Chama Milind: degenerate score shown as N/A, not a number",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Ackeem Auguste: shows 'West Indies'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Ackeem Auguste: shows 'Left-hand bat'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Ackeem Auguste: shows 'Verified public record'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Ackeem Auguste: shows '385 runs'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Ackeem Auguste: no copied value '10 matches \u00b7 278 runs'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Ackeem Auguste: no copied value 'ipl.com/player/pathum-nissanka'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Ackeem Auguste: every record link is https and external",
+  "pass": true,
+  "detail": "['https://www.espncricinfo.com/westindies/content/player/1275056.html', 'https://www.mykhel.com/cricket/players/ackeem-auguste-p14848/']"
+ },
+ {
+  "name": "REG-05 Sediqullah Atal: shows 'Afghanistan'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Sediqullah Atal: shows 'Left-hand bat'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Sediqullah Atal: shows 'MI Cape Town'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Sediqullah Atal: shows 'Verified public record'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Sediqullah Atal: no copied value '10 matches \u00b7 278 runs'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Sediqullah Atal: no copied value 'ipl.com/player/pathum-nissanka'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Sediqullah Atal: every record link is https and external",
+  "pass": true,
+  "detail": "['https://www.espncricinfo.com/cricketers/sediqullah-atal-1161050', 'https://www.espncricinfo.com/cricketers/sediqullah-atal-1161050']"
+ },
+ {
+  "name": "REG-05 Salil Arora: shows 'Sunrisers Hyderabad'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Salil Arora: shows '125* off 45'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Salil Arora: shows 'Verified public record'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Salil Arora: no copied value 'Delhi Capitals (2026)'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Salil Arora: no copied value '10 matches \u00b7 278 runs'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Salil Arora: every record link is https and external",
+  "pass": true,
+  "detail": "['https://www.iplt20.com/players/salil-arora/23041', 'https://www.wisden.com/series/ipl-2026/cricket-news/who-is-salil-arora-the-srh-batter-who-smashed-125-off-45-against-ishan-kishans-jharkhand']"
+ },
+ {
+  "name": "REG-05 Tristan Luus: shows 'South Africa'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Tristan Luus: shows 'conflicting'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Tristan Luus: shows 'MI Cape Town'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Tristan Luus: shows 'Verified public record'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Tristan Luus: no copied value 'Lucknow Super Giants (2026)'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Tristan Luus: no copied value 'Royal Challengers Bengaluru (2021'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Tristan Luus: every record link is https and external",
+  "pass": true,
+  "detail": "['https://www.espncricinfo.com/ci/content/player/1385637.html', 'https://khelnow.com/cricket/player/tristan-luus-925']"
+ },
+ {
+  "name": "REG-05 Yash Thakur: shows 'Punjab Kings'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Yash Thakur: shows '77.5 overs'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Yash Thakur: shows 'Verified public record'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Yash Thakur: no copied value 'Royal Challengers Bengaluru (2021'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Yash Thakur: every record link is https and external",
+  "pass": true,
+  "detail": "['https://www.mykhel.com/cricket/players/yash-thakur-ipl-p13937/', 'https://sportsdigest.in/who-is-yash-thakur-career-family-age-and-cricket-journey/199183/amp/']"
+ },
+ {
+  "name": "REG-05 Chama Milind: shows 'Left-hand bat'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Chama Milind: shows 'No IPL match played'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Chama Milind: shows '104 wickets'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Chama Milind: shows 'Verified public record'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Chama Milind: no copied value 'Lucknow Super Giants (2026)'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Chama Milind: no copied value 'Right-arm legbreak'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Chama Milind: every record link is https and external",
+  "pass": true,
+  "detail": "['https://cricketaddictor.com/player/chama-milind', 'https://cricketaddictor.com/player/chama-milind']"
+ },
+ {
+  "name": "REG-05 Pathum Nissanka: shows 'Sri Lanka'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Pathum Nissanka: shows '278 runs'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Wanindu Hasaranga: shows 'Sri Lanka'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Wanindu Hasaranga: shows 'hamstring'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Wanindu Hasaranga: shows 'Rajasthan Royals (2025)'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Wanindu Hasaranga: shows 'Lucknow Super Giants (2026)'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Wanindu Hasaranga: no copied value 'Right-arm medium'",
+  "pass": true,
+  "detail": ""
+ }
+]

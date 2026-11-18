@@ -1,0 +1,22 @@
+PASS Tab walks sidebar nav in order ['Command Centre', 'Pressure Intelligence', 'Batting Analytics', 'Bowling Analytics']
+PASS focused element has visible focus style 
+PASS Enter opens dossier from keyboard 
+PASS focus moves into dossier 
+PASS Escape closes dossier 
+PASS heatmap operable by arrow keys 
+PASS evidence drawer opens by keyboard and takes focus 
+PASS Escape closes drawer 
+PASS P opens presentation 
+PASS arrow keys advance slides 
+PASS simulator slider operable by keyboard 
+AXE states: 13 | total violation entries: 0
+ contrast ('body text on panel', '#F2F1F7', '#10182B', 15.75, 'AA pass')
+ contrast ('muted text on panel', '#9AA0B4', '#10182B', 6.79, 'AA pass')
+ contrast ('muted text on page', '#9AA0B4', '#05070F', 7.72, 'AA pass')
+ contrast ('pink eyebrow on panel', '#E83E83', '#10182B', 4.59, 'AA pass')
+ contrast ('gold eyebrow on page', '#D8B368', '#05070F', 10.12, 'AA pass')
+ contrast ('lavender on panel', '#B69AFF', '#10182B', 7.63, 'AA pass')
+ contrast ('white on pink button', '#FFFFFF', '#E83E83', 3.85, 'below AA 4.5 (large/UI text only if >=3)')
+ contrast ('verified green', '#6ee7b7', '#10182B', 11.6, 'AA pass')
+ contrast ('amber', '#fcd34d', '#10182B', 12.26, 'AA pass')
+ contrast ('segment active text', '#0a0f1e', '#B69AFF', 8.23, 'AA pass')

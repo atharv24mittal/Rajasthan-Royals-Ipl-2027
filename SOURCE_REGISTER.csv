@@ -1,0 +1,17 @@
+source,url,used_for,notes
+RR competition data pack,User-supplied original data pack,"Stage 3 Model C chase-pressure values, sample sizes, reliability and intervals",Primary proprietary source; not public
+IPL.com 2026 statistics,https://www.ipl.com/series/indian-premier-league-2026-129908/stats,IPL 2026 batting leaderboards and player team association,Public web source; season-level values only
+Pathum Nissanka profile,https://www.ipl.com/player/pathum-nissanka,Career and IPL season profile,Public web source
+Shimron Hetmyer profile,https://www.ipl.com/player/shimron-hetmyer,IPL career and 2026 season profile,Public web source
+Deepak Chahar profile,https://www.ipl.com/player/deepak-chahar,IPL career and 2026 bowling line,Public web source
+Tushar Deshpande profile,https://www.ipl.com/player/tushar-deshpande,IPL franchise history and player profile,Public web source
+ESPNcricinfo Statsguru,https://stats.cricinfo.com/ci/engine/stats/index.html,Cross-checking career T20 and format-specific statistics,Use exact filters and date cutoffs when extending data
+Cricbuzz IPL 2026 statistics,https://www.cricbuzz.com/cricket-series/9241/ipl/stats?matchFormat=3&seasonSeriesId=9237&statsType=mostRuns,2026 IPL stats cross-check,Public web source
+Deepak Chahar phase stats IPL 2026,CricketStudio,https://cricketstudio.ai/players/deepak-chahar,IPL 2026 phase bowling economy and legal-ball samples,2026-11-17
+Deepak Chahar career IPL phase stats,CricketViz,https://cricketviz.in/players/deepak-chahar,Pre-2026 IPL phase economy wickets and overs,2026-11-17
+Tushar Deshpande phase stats IPL 2026,CricketStudio,https://players.cricketstudio.ai/players/tushar-deshpande,IPL 2026 phase bowling economy and legal-ball samples,2026-11-17
+Tushar Deshpande career IPL phase stats,CricketViz,https://cricketviz.in/players/tushar-deshpande,IPL career phase economy wickets overs dot percentage,2026-11-17
+Avesh Khan phase stats IPL 2026,CricketStudio,https://players.cricketstudio.ai/players/avesh-khan,IPL 2026 phase bowling economy and legal-ball samples,2026-11-17
+Trent Boult phase stats IPL 2026,CricketStudio,https://players.cricketstudio.ai/players/trent-boult,IPL 2026 phase bowling economy and legal-ball samples,2026-11-17
+Adam Milne T20I and T20 Blast phase stats,CricketViz,https://cricketviz.in/players/adam-milne,T20I and T20 Blast phase economy wickets and dot percentage; not IPL,2026-11-17
+Kuldeep Sen career IPL phase stats,CricketViz,https://cricketviz.in/players/kuldeep-sen,IPL career phase economy wickets and dot percentage,2026-11-17

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1000">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#080b20"/><stop offset=".5" stop-color="#2b1747"/><stop offset="1" stop-color="#e75b83"/></linearGradient>
+ <linearGradient id="sand" x2="0" y2="1"><stop stop-color="#e9a36b"/><stop offset="1" stop-color="#4b1b38"/></linearGradient>
+ <linearGradient id="stad" x2="0" y2="1"><stop stop-color="#18274b"/><stop offset="1" stop-color="#080c1b"/></linearGradient>
+ <radialGradient id="sun"><stop stop-color="#ffe0a5" stop-opacity=".95"/><stop offset="1" stop-color="#ff8a9f" stop-opacity="0"/></radialGradient>
+ <filter id="blur"><feGaussianBlur stdDeviation="30"/></filter>
+</defs>
+<rect width="1800" height="1000" fill="url(#sky)"/>
+<circle cx="1310" cy="300" r="270" fill="url(#sun)"/>
+<circle cx="1310" cy="300" r="95" fill="#ffd9ad" opacity=".78"/>
+<!-- star field -->
+<g fill="#fff" opacity=".6"><circle cx="140" cy="110" r="3"/><circle cx="350" cy="220" r="2"/><circle cx="670" cy="100" r="2"/><circle cx="920" cy="190" r="3"/><circle cx="1600" cy="100" r="2"/><circle cx="1710" cy="290" r="2"/></g>
+<!-- distant hills -->
+<path d="M0 610 210 480 390 570 610 430 820 590 1040 450 1250 600 1480 430 1800 590V1000H0Z" fill="#171a38"/>
+<path d="M0 680 280 570 500 655 760 520 990 670 1260 535 1510 680 1800 560V1000H0Z" fill="#30183c"/>
+<!-- fort silhouette -->
+<g fill="#e6a36e" stroke="#f9c38a" stroke-width="5" opacity=".95">
+ <path d="M1080 570V390h70v-75h80v55h65v-90h90v90h75v-45h75v245z"/>
+ <path d="M1055 390h420M1130 315v-40h20v40M1240 370v-48h22v48M1375 280v-40h22v40M1480 430v-40h25v40"/>
+ <path d="M1100 570v-80h45v80M1190 570v-110h55v110M1300 570v-90h55v90M1410 570v-80h45v80"/>
+</g>
+<!-- Hawa Mahal inspired facade -->
+<g transform="translate(90 360)" fill="#db8e75" stroke="#ffd1a0" stroke-width="4">
+ <path d="M0 310V70L70 25 140 70 210 25 280 70 350 25 420 70 490 25 560 70V310Z"/>
+ <path d="M30 310V110h500v200" fill="#b65c68"/>
+ <g fill="#371d3b" stroke="#ffd1a0" stroke-width="3">
+  <path d="M55 150a26 26 0 0 1 52 0v58H55zM145 150a26 26 0 0 1 52 0v58h-52zM235 150a26 26 0 0 1 52 0v58h-52zM325 150a26 26 0 0 1 52 0v58h-52zM415 150a26 26 0 0 1 52 0v58h-52z"/>
+  <path d="M100 245a25 25 0 0 1 50 0v65h-50zM250 245a25 25 0 0 1 50 0v65h-50zM400 245a25 25 0 0 1 50 0v65h-50z"/>
+ </g>
+</g>
+<!-- stadium bowl -->
+<path d="M0 735Q900 550 1800 735V1000H0Z" fill="url(#stad)"/>
+<path d="M0 755Q900 600 1800 755" fill="none" stroke="#e83e83" stroke-width="12" opacity=".7"/>
+<path d="M0 790Q900 650 1800 790" fill="none" stroke="#b69aff" stroke-width="5" opacity=".55"/>
+<ellipse cx="900" cy="920" rx="750" ry="125" fill="#123b46" stroke="#56d9c8" stroke-width="5" opacity=".7"/>
+<ellipse cx="900" cy="920" rx="450" ry="65" fill="none" stroke="#e83e83" stroke-width="4" opacity=".8"/>
+<!-- floodlights -->
+<g stroke="#cbd8ff" stroke-width="8" fill="#fff5d6"><path d="M260 360V640M235 360h50M1540 300V620M1510 300h60"/><g opacity=".9"><path d="M220 345l-50 220h180l-50-220z" fill="#fff" opacity=".12" stroke="none"/><path d="M1500 285l-65 240h210l-65-240z" fill="#fff" opacity=".12" stroke="none"/></g></g>
+<!-- camel caravan -->
+<g fill="#180f25" transform="translate(800 690)">
+ <path d="M0 85q15-45 45-35l25 5q12-35 30-15l-5 35 45 20-5 12H0zM25 90v55h9V90M115 100v45h9v-45M50 90v55h9V90M130 90v55h9V90"/>
+ <path d="M170 90q15-45 45-35l25 5q12-35 30-15l-5 35 45 20-5 12H170zM195 95v50h9V95M285 100v45h9v-45M220 90v55h9V90M300 90v55h9V90"/>
+</g>
+<!-- subtle decorative arch frame -->
+<path d="M0 0h1800v1000H0z" fill="none" stroke="#e8a66f" stroke-opacity=".22" stroke-width="14"/>
+</svg>

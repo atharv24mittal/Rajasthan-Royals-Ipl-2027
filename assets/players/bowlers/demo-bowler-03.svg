@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 760">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101a35"/><stop offset=".55" stop-color="#211b43"/><stop offset="1" stop-color="#090d1b"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#6e9dff" stop-opacity=".5"/><stop offset="1" stop-color="#6e9dff" stop-opacity="0"/></radialGradient>
+<linearGradient id="shirt" x2="0" y2="1"><stop stop-color="#501d45"/><stop offset="1" stop-color="#080e20"/></linearGradient></defs>
+<rect width="600" height="760" fill="url(#bg)"/><ellipse cx="300" cy="250" rx="260" ry="260" fill="url(#halo)"/>
+<path d="M45 760Q55 535 190 485L240 455H360L410 485Q545 535 555 760Z" fill="url(#shirt)" stroke="#6e9dff" stroke-width="5"/>
+<path d="M210 535Q300 600 390 535" stroke="#6e9dff" stroke-width="10" fill="none"/><path d="M245 455L300 550L355 455" fill="none" stroke="#f5eaff" stroke-opacity=".45" stroke-width="6"/>
+<ellipse cx="300" cy="295" rx="112" ry="145" fill="#8d594b"/>
+<path d="M190 260Q190 80 310 95Q430 100 410 265Q370 200 300 205Q230 205 190 260Z" fill="#10101a"/>
+<path d="M250 290h32M318 290h32" stroke="#17121a" stroke-width="10" stroke-linecap="round"/>
+<path d="M292 315l-10 38 24 4" fill="none" stroke="#70463e" stroke-width="7" stroke-linecap="round"/>
+<path d="M270 385q30 18 60 0" fill="none" stroke="#6f3d42" stroke-width="7" stroke-linecap="round"/>
+<path d="M220 360Q300 455 380 360L365 410Q300 470 235 410Z" fill="#10101a"/>
+<path d="M190 250Q300 165 410 250" fill="none" stroke="#6e9dff" stroke-width="7" opacity=".8"/>
+<circle cx="300" cy="295" r="165" fill="none" stroke="#6e9dff" stroke-opacity=".22" stroke-width="3"/>
+<text x="28" y="45" fill="#fff" opacity=".65" font-family="Arial" font-size="18" letter-spacing="4">FICTIONAL DEMO PROFILE</text>
+<text x="30" y="715" fill="#fff" opacity=".65" font-family="Arial" font-size="20" letter-spacing="5">BOWLER · SAMPLE 13</text>
+</svg>

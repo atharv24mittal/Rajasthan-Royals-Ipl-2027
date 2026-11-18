@@ -1,0 +1,21 @@
+player,type,pressure_eligible_balls,shrunk_pressure_effect_per_100,ci95_low,ci95_high,reliability_0_100,eligible_120_ball_screen,degenerate,interpretation
+Pathum Nissanka,bat,311,4.362,-0.769,7.592,17.9,True,False,Meets volume screen; reliability still limited
+Shimron Hetmyer,bat,175,2.054,0.81,9.566,12.5,True,False,Meets volume screen; reliability still limited
+Nitish Rana,bat,92,-1.946,-3.137,5.785,14.7,False,False,Below 120-ball volume screen
+Nehal Wadhera,bat,121,-1.392,-1.335,6.089,8.1,True,False,Meets volume screen; reliability still limited
+Abishek Porel,bat,70,-1.926,-4.324,0.33,2.9,False,False,Below 120-ball volume screen
+Rahul Tripathi,bat,132,-1.197,-4.456,2.223,6.4,True,False,Meets volume screen; reliability still limited
+Karun Nair,bat,48,0.758,-2.256,2.784,2.1,False,False,Below 120-ball volume screen
+Ben Duckett,bat,37,0.225,1.106,6.655,4.4,False,False,Below 120-ball volume screen
+Rachin Ravindra,bat,112,-0.134,-3.324,2.336,6.1,False,False,Below 120-ball volume screen
+Shahrukh Khan,bat,70,1.776,-6.874,-0.377,5.7,False,False,Below 120-ball volume screen
+Wanindu Hasaranga,bowl,288,0.907,-9.415,5.577,39.6,True,False,Meets volume screen; reliability still limited
+Mustafizur Rahman,bowl,187,0.373,-4.933,-0.973,6.6,True,False,Meets volume screen; reliability still limited
+Avesh Khan,bowl,323,0.656,-4.636,-0.212,9.6,True,False,Meets volume screen; reliability still limited
+Matheesha Pathirana,bowl,143,1.189,-3.428,-0.925,4.7,True,False,Meets volume screen; reliability still limited
+Allah Ghazanfar,bowl,62,0.949,-2.982,0.372,3.9,False,False,Below 120-ball volume screen
+Trent Boult,bowl,235,0.0,0.0,0.0,0.0,False,True,Degenerate estimate: score/interval not interpretable
+Deepak Chahar,bowl,171,0.0,0.0,0.0,0.0,False,True,Degenerate estimate: score/interval not interpretable
+Adam Milne,bowl,59,-0.0,-0.0,-0.0,0.0,False,True,Degenerate estimate: score/interval not interpretable
+Tushar Deshpande,bowl,180,-0.0,-0.0,-0.0,0.0,False,True,Degenerate estimate: score/interval not interpretable
+Kuldeep Sen,bowl,49,0.0,0.0,0.0,0.0,False,True,Degenerate estimate: score/interval not interpretable

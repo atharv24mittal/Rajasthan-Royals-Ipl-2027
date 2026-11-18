@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="760" viewBox="0 0 600 760">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#152746"/><stop offset=".55" stop-color="#10162c"/><stop offset="1" stop-color="#080b16"/></linearGradient>
+    <radialGradient id="halo"><stop stop-color="#f2b35e" stop-opacity=".5"/><stop offset="1" stop-color="#f2b35e" stop-opacity="0"/></radialGradient>
+    <linearGradient id="skin" x2="1" y2="1"><stop stop-color="#d9a88d"/><stop offset="1" stop-color="#754b50"/></linearGradient>
+    <linearGradient id="shirt" x2="0" y2="1"><stop stop-color="#70421f"/><stop offset="1" stop-color="#111b31"/></linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="25"/></filter></defs><rect width="600" height="760" fill="url(#bg)"/><ellipse cx="300" cy="260" rx="250" ry="250" fill="url(#halo)" filter="url(#soft)"/>
+    <path d="M65 760 Q75 525 210 470 L300 445 L390 470 Q525 525 535 760Z" fill="url(#shirt)" stroke="#f2b35e" stroke-opacity=".5" stroke-width="4"/>
+    <path d="M215 485 L300 590 L385 485" fill="none" stroke="#f2f1f7" stroke-opacity=".22" stroke-width="5"/>
+    <ellipse cx="300" cy="300" rx="112" ry="145" fill="url(#skin)"/>
+    <path d="M188 285 Q170 120 300 115 Q430 120 412 290 Q380 205 300 210 Q225 205 188 285Z" fill="#10121d"/>
+    <path d="M205 340 Q300 390 395 340" fill="none" stroke="#442b35" stroke-width="8" opacity=".35"/>
+    <path d="M250 300 L275 300 M325 300 L350 300" stroke="#171321" stroke-width="9" stroke-linecap="round"/>
+    <path d="M282 365 Q300 375 318 365" fill="none" stroke="#512d3c" stroke-width="5" stroke-linecap="round"/>
+    <path d="M190 255 Q300 175 410 255" fill="none" stroke="#f2b35e" stroke-width="7" opacity=".5"/>
+    <text x="28" y="48" fill="#ffffff" opacity=".55" font-family="Arial" font-size="18" letter-spacing="4">DEMO</text>
+    <text x="28" y="720" fill="#ffffff" opacity=".42" font-family="Arial" font-size="15" letter-spacing="3">ILLUSTRATIVE PLAYER ART</text></svg>

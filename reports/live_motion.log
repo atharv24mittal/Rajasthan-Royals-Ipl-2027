@@ -1,0 +1,13 @@
+PASS LIVE: verified note shown, no preview switch 
+PASS LIVE: ranks and scores rendered without 'synthetic' wording 
+PASS LIVE: stripe/watermark off 
+PASS LIVE: dossier shows verified, no 'Fictional demo' badge 
+PASS LIVE: comparison renders radar 
+PASS LIVE: no page errors 
+PASS RM: intro final state shown immediately (headline visible at 500ms) 
+PASS RM: app opens without iris animation 
+PASS RM: counters at final value instantly 
+PASS RM: heatmap fully visible 
+PASS RM: reveal elements visible 
+PASS RM: no page errors 
+TOTAL 12 / 12

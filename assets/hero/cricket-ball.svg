@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="960" viewBox="0 0 1024 960">
+<defs><radialGradient id="b" cx=".32" cy=".25"><stop stop-color="#ff8ab8"/><stop offset=".55" stop-color="#d92770"/><stop offset="1" stop-color="#4b0928"/></radialGradient><filter id="shadow"><feGaussianBlur stdDeviation="14"/></filter></defs><ellipse cx="512" cy="540" rx="280" ry="55" fill="#e83e83" opacity=".28" filter="url(#shadow)"/>
+<circle cx="512" cy="480" r="280" fill="url(#b)" stroke="#ff9bc4" stroke-opacity=".55" stroke-width="5"/>
+<path d="M320 255 C450 370 450 590 320 705 M704 255 C574 370 574 590 704 705" fill="none" stroke="#fff0f6" stroke-width="9" stroke-linecap="round" stroke-dasharray="16 15" opacity=".88"/>
+<path d="M330 265 C460 380 460 580 330 695 M694 265 C564 380 564 580 694 695" fill="none" stroke="#7c123d" stroke-width="3" opacity=".65"/></svg>

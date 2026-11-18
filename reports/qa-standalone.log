@@ -1,0 +1,125 @@
+PASS 360 landing closes and app visible 
+PASS 360 view0 no h-overflow 360
+PASS 360 view1 no h-overflow 360
+PASS 360 view2 no h-overflow 360
+PASS 360 view3 no h-overflow 360
+PASS 360 view4 no h-overflow 360
+PASS 360 view5 no h-overflow 360
+PASS 360 view6 no h-overflow 360
+PASS 360 view7 no h-overflow 360
+PASS 360 view8 no h-overflow 360
+PASS 360 view9 no h-overflow 360
+PASS 360 console errors 
+PASS 360 images load []
+PASS 360 mobile menu opens 
+PASS 390 landing closes and app visible 
+PASS 390 view0 no h-overflow 390
+PASS 390 view1 no h-overflow 390
+PASS 390 view2 no h-overflow 390
+PASS 390 view3 no h-overflow 390
+PASS 390 view4 no h-overflow 390
+PASS 390 view5 no h-overflow 390
+PASS 390 view6 no h-overflow 390
+PASS 390 view7 no h-overflow 390
+PASS 390 view8 no h-overflow 390
+PASS 390 view9 no h-overflow 390
+PASS 390 console errors 
+PASS 390 images load []
+PASS 390 mobile menu opens 
+PASS 430 landing closes and app visible 
+PASS 430 view0 no h-overflow 430
+PASS 430 view1 no h-overflow 430
+PASS 430 view2 no h-overflow 430
+PASS 430 view3 no h-overflow 430
+PASS 430 view4 no h-overflow 430
+PASS 430 view5 no h-overflow 430
+PASS 430 view6 no h-overflow 430
+PASS 430 view7 no h-overflow 430
+PASS 430 view8 no h-overflow 430
+PASS 430 view9 no h-overflow 430
+PASS 430 console errors 
+PASS 430 images load []
+PASS 768 landing closes and app visible 
+PASS 768 view0 no h-overflow 768
+PASS 768 view1 no h-overflow 768
+PASS 768 view2 no h-overflow 768
+PASS 768 view3 no h-overflow 768
+PASS 768 view4 no h-overflow 768
+PASS 768 view5 no h-overflow 768
+PASS 768 view6 no h-overflow 768
+PASS 768 view7 no h-overflow 768
+PASS 768 view8 no h-overflow 768
+PASS 768 view9 no h-overflow 768
+PASS 768 console errors 
+PASS 768 images load []
+PASS 1280 landing closes and app visible 
+PASS 1280 view0 no h-overflow 1280
+PASS 1280 view1 no h-overflow 1280
+PASS 1280 view2 no h-overflow 1280
+PASS 1280 view3 no h-overflow 1280
+PASS 1280 view4 no h-overflow 1280
+PASS 1280 view5 no h-overflow 1280
+PASS 1280 view6 no h-overflow 1280
+PASS 1280 view7 no h-overflow 1280
+PASS 1280 view8 no h-overflow 1280
+PASS 1280 view9 no h-overflow 1280
+PASS 1280 console errors 
+PASS 1280 images load []
+PASS 1440 landing closes and app visible 
+PASS 1440 view0 no h-overflow 1440
+PASS 1440 view1 no h-overflow 1440
+PASS 1440 view2 no h-overflow 1440
+PASS 1440 view3 no h-overflow 1440
+PASS 1440 view4 no h-overflow 1440
+PASS 1440 view5 no h-overflow 1440
+PASS 1440 view6 no h-overflow 1440
+PASS 1440 view7 no h-overflow 1440
+PASS 1440 view8 no h-overflow 1440
+PASS 1440 view9 no h-overflow 1440
+PASS 1440 console errors 
+PASS 1440 images load []
+PASS counters reach verified values 883|200,961|811|138
+PASS pitch replay runs 
+PASS heatmap has cells 360
+PASS model switch recolours cells rgb(81, 101, 147) -> rgb(36, 78, 99)
+PASS wickets switch rebuilds grid 
+PASS cell selection updates panel 
+PASS heatmap keyboard navigation 42|1.5->48|1.6
+PASS tooltip appears 
+PASS validation toggles 
+PASS evidence drawer + scrim 
+PASS Escape closes drawer 
+PASS pending leaderboard: 10 cards, no scores 
+PASS search filters 
+PASS preview banner unmistakable 
+PASS sort/competition/role filters 
+PASS compare FAB appears 
+PASS compare opens with 2 selected 
+PASS add third player 
+PASS dossier opens 
+PASS tab indicator slides 95
+PASS dossier evidence drawer 
+PASS dossier closes 
+PASS stability matrix cells 
+PASS matrix tooltip 
+PASS simulator reacts 
+PASS ratio sweep starts/stops 
+PASS methodology step 
+PASS presentation opens 
+PASS presentation navigation 
+PASS presentation closes 
+PASS number shortcut ['Batting Analytics']BODY dos:
+PASS 1920 landing closes and app visible 
+PASS 1920 view0 no h-overflow 1920
+PASS 1920 view1 no h-overflow 1920
+PASS 1920 view2 no h-overflow 1920
+PASS 1920 view3 no h-overflow 1920
+PASS 1920 view4 no h-overflow 1920
+PASS 1920 view5 no h-overflow 1920
+PASS 1920 view6 no h-overflow 1920
+PASS 1920 view7 no h-overflow 1920
+PASS 1920 view8 no h-overflow 1920
+PASS 1920 view9 no h-overflow 1920
+PASS 1920 console errors 
+PASS 1920 images load []
+TOTAL 124 / 124

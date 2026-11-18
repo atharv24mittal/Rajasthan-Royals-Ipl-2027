@@ -1,0 +1,198 @@
+{
+ "axe": [
+  {
+   "state": "view 0",
+   "violations": [],
+   "passes": 35
+  },
+  {
+   "state": "view 1",
+   "violations": [],
+   "passes": 37
+  },
+  {
+   "state": "view 2",
+   "violations": [],
+   "passes": 39
+  },
+  {
+   "state": "view 3",
+   "violations": [],
+   "passes": 39
+  },
+  {
+   "state": "view 4",
+   "violations": [],
+   "passes": 38
+  },
+  {
+   "state": "view 5",
+   "violations": [],
+   "passes": 35
+  },
+  {
+   "state": "view 6",
+   "violations": [],
+   "passes": 38
+  },
+  {
+   "state": "view 7",
+   "violations": [],
+   "passes": 40
+  },
+  {
+   "state": "view 8",
+   "violations": [],
+   "passes": 38
+  },
+  {
+   "state": "view 9",
+   "violations": [],
+   "passes": 40
+  },
+  {
+   "state": "leaderboard preview",
+   "violations": [],
+   "passes": 40
+  },
+  {
+   "state": "dossier",
+   "violations": [],
+   "passes": 43
+  },
+  {
+   "state": "evidence drawer",
+   "violations": [],
+   "passes": 38
+  }
+ ],
+ "keyboard": [
+  [
+   "Tab walks sidebar nav in order",
+   true,
+   "['Command Centre', 'Pressure Intelligence', 'Batting Analytics', 'Bowling Analytics']"
+  ],
+  [
+   "focused element has visible focus style",
+   true,
+   ""
+  ],
+  [
+   "Enter opens dossier from keyboard",
+   true,
+   ""
+  ],
+  [
+   "focus moves into dossier",
+   true,
+   ""
+  ],
+  [
+   "Escape closes dossier",
+   true,
+   ""
+  ],
+  [
+   "heatmap operable by arrow keys",
+   true,
+   ""
+  ],
+  [
+   "evidence drawer opens by keyboard and takes focus",
+   true,
+   ""
+  ],
+  [
+   "Escape closes drawer",
+   true,
+   ""
+  ],
+  [
+   "P opens presentation",
+   true,
+   ""
+  ],
+  [
+   "arrow keys advance slides",
+   true,
+   ""
+  ],
+  [
+   "simulator slider operable by keyboard",
+   true,
+   ""
+  ]
+ ],
+ "contrast": [
+  [
+   "body text on panel",
+   "#F2F1F7",
+   "#10182B",
+   15.75,
+   "AA pass"
+  ],
+  [
+   "muted text on panel",
+   "#9AA0B4",
+   "#10182B",
+   6.79,
+   "AA pass"
+  ],
+  [
+   "muted text on page",
+   "#9AA0B4",
+   "#05070F",
+   7.72,
+   "AA pass"
+  ],
+  [
+   "pink eyebrow on panel",
+   "#E83E83",
+   "#10182B",
+   4.59,
+   "AA pass"
+  ],
+  [
+   "gold eyebrow on page",
+   "#D8B368",
+   "#05070F",
+   10.12,
+   "AA pass"
+  ],
+  [
+   "lavender on panel",
+   "#B69AFF",
+   "#10182B",
+   7.63,
+   "AA pass"
+  ],
+  [
+   "white on pink button",
+   "#FFFFFF",
+   "#E83E83",
+   3.85,
+   "below AA 4.5 (large/UI text only if >=3)"
+  ],
+  [
+   "verified green",
+   "#6ee7b7",
+   "#10182B",
+   11.6,
+   "AA pass"
+  ],
+  [
+   "amber",
+   "#fcd34d",
+   "#10182B",
+   12.26,
+   "AA pass"
+  ],
+  [
+   "segment active text",
+   "#0a0f1e",
+   "#B69AFF",
+   8.23,
+   "AA pass"
+  ]
+ ]
+}

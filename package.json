@@ -1,0 +1,3 @@
+{"name":"superr-intelligence-v4","private":true,"version":"4.0.0","type":"module",
+ "scripts":{"data":"python scripts/build_stage2_data.py <stage2_output_dir> <ball_by_ball.csv>","build":"python scripts/build_standalone.py","qa":"python scripts/qa.py file://$PWD/dist/superr-intelligence-v4-standalone.html qa chromium","test:auth":"node scripts/test_middleware.mjs","verify:deploy":"bash scripts/verify_deploy.sh"},
+ "dependencies":{"@vercel/functions":"^2.0.0"}}

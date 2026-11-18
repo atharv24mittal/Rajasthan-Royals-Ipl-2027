@@ -1,0 +1,139 @@
+{
+  "_meta": {
+    "purpose": "Public-source corrections and career records for submitted players whose research fields were previously copied from template rows. Applied to data/players.js by scripts/apply_verified_research.py.",
+    "verified_on": "2026-11-18",
+    "rules": [
+      "Every record carries the URL it came from. Counts are as of that source's snapshot and can differ between trackers.",
+      "Records marked 'supplied' come from the pre-existing research pack and were NOT re-verified here.",
+      "Different competitions are never merged into one line; each competition is its own record.",
+      "Nothing here is a Stage 3 pressure estimate. Pressure scores remain N/A where no usable Stage 3 sample exists."
+    ]
+  },
+  "players": {
+    "Ackeem Auguste": {
+      "country": "West Indies (Saint Lucia)",
+      "bat": "Left-hand bat", "bowl": "Right-arm legbreak (rarely bowls)",
+      "ipl_teams": "No IPL appearance found in sources checked",
+      "ipl26": "No IPL 2026 record found",
+      "strength": "Left-hand top-order batter; 27 CPL matches for Saint Lucia Kings at strike rate 133.21.",
+      "risk": "No IPL experience and no usable Stage 3 pressure sample; 9 T20Is so far.",
+      "source": "https://www.espncricinfo.com/cricketers/ackeem-auguste-1275056",
+      "ipl26src": "https://www.espncricinfo.com/cricketers/ackeem-auguste-1275056",
+      "record": [
+        {"label": "CPL (Saint Lucia Kings)", "value": "27 matches · 385 runs · HS 73 · avg 21.38 · SR 133.21 · 36 fours · 15 sixes", "url": "https://www.espncricinfo.com/westindies/content/player/1275056.html", "type": "verified"},
+        {"label": "T20 Internationals", "value": "9 matches · 164 runs · HS 50 · SR 138.98 (snapshot Nov 2025)", "url": "https://www.mykhel.com/cricket/players/ackeem-auguste-p14848/", "type": "verified"},
+        {"label": "ODI", "value": "4 matches · 56 runs · HS 22 · avg 14.00 (snapshot Nov 2025)", "url": "https://www.mykhel.com/cricket/players/ackeem-auguste-p14848/", "type": "verified"},
+        {"label": "Born", "value": "12 Sep 2003, Castries, Saint Lucia; left-hand bat, leg-break", "url": "https://en.wikipedia.org/wiki/Ackeem_Auguste", "type": "verified"},
+        {"label": "Prior research (CPL 2025/26)", "value": "CPL 2025: 229 runs in 10 innings at SR above 160; CPL 2026: 100 runs in 5 matches", "url": "", "type": "supplied"}
+      ]
+    },
+    "Sediqullah Atal": {
+      "country": "Afghanistan",
+      "bat": "Left-hand bat", "bowl": "N/A (not a regular bowler)",
+      "ipl_teams": "Delhi Capitals (1 IPL match; season not verified)",
+      "ipl26": "IPL 2026 appearance not verified",
+      "strength": "Left-hand opener; 82 runs in 3 SA20 matches at strike rate 146.42.",
+      "risk": "Very small franchise-T20 sample (1 IPL match, 3 SA20 matches); no usable Stage 3 pressure sample.",
+      "source": "https://www.espncricinfo.com/cricketers/sediqullah-atal-1161050",
+      "ipl26src": "https://www.espncricinfo.com/cricketers/sediqullah-atal-1161050",
+      "record": [
+        {"label": "IPL (Delhi Capitals)", "value": "1 match · 22 runs · SR 137.50", "url": "https://www.espncricinfo.com/cricketers/sediqullah-atal-1161050", "type": "verified"},
+        {"label": "SA20 (MI Cape Town)", "value": "3 matches · 82 runs · HS 74 · avg 27.33 · SR 146.42 · 1 fifty", "url": "https://www.espncricinfo.com/cricketers/sediqullah-atal-1161050", "type": "verified"},
+        {"label": "T20 Internationals", "value": "29 matches · 621 runs · avg 23.00 · HS 73 · 37 fours · 29 sixes (tracker snapshot Feb 2026; earlier snapshots show fewer matches)", "url": "https://www.cricketsky.com/cricket/sediqullah-atal-p968/", "type": "verified"},
+        {"label": "ODI", "value": "12 matches · 377 runs · avg 34.27 · HS 104 (tracker snapshot, early 2026)", "url": "https://www.sportsyaari.com/cricket/sediqullah-atal-p968/", "type": "verified"},
+        {"label": "Afghanistan A", "value": "368 runs in 5 games at the ACC Emerging Teams Asia Cup, Oct 2024 (player of the tournament)", "url": "https://tv9telugu.com/sports/cricket-news/player-profile/sediqullah-atal-70227", "type": "verified"},
+        {"label": "Born", "value": "12 Aug 2001, Logar, Afghanistan; left-hand opening batter", "url": "https://www.espncricinfo.com/cricketers/sediqullah-atal-1161050", "type": "verified"},
+        {"label": "Prior research (Shpageeza 2026)", "value": "Shpageeza League 2026: 338 runs from 208 balls, SR 162.50; 18 sixes", "url": "", "type": "supplied"}
+      ]
+    },
+    "Salil Arora": {
+      "country": "India",
+      "bat": "Right-hand bat", "bowl": "N/A (wicketkeeper)",
+      "ipl_teams": "Sunrisers Hyderabad (2026)",
+      "ipl26": "IPL 2026 debut season for SRH: 12 matches per iplt20.com (another tracker lists 14); highest score 35",
+      "strength": "Wicketkeeper-batter; unbeaten 125 off 45 balls in SMAT 2025-26 (century off 39).",
+      "risk": "Modest IPL 2026 output (highest score 35); Stage 3 pressure sample far too small to rely on.",
+      "source": "https://www.iplt20.com/players/salil-arora/23041",
+      "ipl26src": "https://www.iplt20.com/players/salil-arora/23041",
+      "record": [
+        {"label": "IPL 2026 (Sunrisers Hyderabad)", "value": "Debut season · 12 matches (iplt20.com) · highest score 35 · 11 fours, 11 sixes (tracker); signed for INR 1.5 crore at the 2026 auction", "url": "https://www.iplt20.com/players/salil-arora/23041", "type": "verified"},
+        {"label": "SMAT 2025-26 (Punjab)", "value": "125* off 45 balls vs Jharkhand in the Super 8 (11 Dec 2025); century came off 39 balls", "url": "https://www.wisden.com/series/ipl-2026/cricket-news/who-is-salil-arora-the-srh-batter-who-smashed-125-off-45-against-ishan-kishans-jharkhand", "type": "verified"},
+        {"label": "All T20 (mixed competitions)", "value": "23 matches · 515 runs · HS 125 · avg 39.61 · SR 183.92 (tracker snapshot mid-2026; combines IPL and domestic T20)", "url": "https://www.indiatvnews.com/sports/cricket/player-profile/salil-arora/95940", "type": "verified"},
+        {"label": "Born", "value": "7 Nov 2002, Amritsar, Punjab; right-hand bat, wicketkeeper", "url": "https://www.espncricinfo.com/cricketers/salil-arora-1199281", "type": "verified"},
+        {"label": "Prior research (SMAT 2025/26)", "value": "SMAT 2025/26: 358 runs in 8 innings at SR 198.88", "url": "", "type": "supplied"}
+      ]
+    },
+    "Tristan Luus": {
+      "country": "South Africa",
+      "bat": "Right-hand bat", "bowl": "Right-arm fast-medium",
+      "ipl_teams": "No IPL appearance found; franchise T20: MI Cape Town (SA20 2025), MI New York (MLC 2025)",
+      "ipl26": "No IPL 2026 record found",
+      "strength": "Young right-arm fast-medium bowler with SA20 and MLC franchise exposure; 15 wickets in 14 T20s.",
+      "risk": "Small T20 sample (14 matches), no IPL experience, and conflicting date-of-birth listings (provisional).",
+      "source": "https://www.espncricinfo.com/cricketers/tristan-luus-1385637",
+      "ipl26src": "https://www.espncricinfo.com/cricketers/tristan-luus-1385637",
+      "dob_note": "26 Jun 2005 is the date given by ESPNcricinfo and Wikipedia. CricketArchive lists 24 Jun 2005 and Wisden lists 26 Jun 2006, so treat the date as provisional.",
+      "record": [
+        {"label": "SA20 (MI Cape Town)", "value": "2 matches · 36 balls · 68 runs conceded · 1 wicket · economy 11.33", "url": "https://www.espncricinfo.com/ci/content/player/1385637.html", "type": "verified"},
+        {"label": "All T20 (mixed competitions)", "value": "14 matches · 264 balls · 385 runs conceded · 15 wickets · avg 25.66 · economy 8.75 · SR 17.6 · best 3/20 (tracker snapshot, early 2026)", "url": "https://khelnow.com/cricket/player/tristan-luus-925", "type": "verified"},
+        {"label": "Born", "value": "Pretoria, South Africa; right-hand bat, right-arm fast-medium (South Africa U19 World Cup 2024)", "url": "https://en.wikipedia.org/wiki/Tristan_Luus", "type": "verified"},
+        {"label": "Prior research (MLC / CSA T20)", "value": "MLC 2026: 2 wickets in 4 overs, economy 5.25; CSA T20 Challenge 2025: 5 wickets, economy 8.21", "url": "", "type": "supplied"}
+      ]
+    },
+    "Yash Thakur": {
+      "country": "India",
+      "bat": "Right-hand bat", "bowl": "Right-arm fast-medium",
+      "ipl_teams": "Lucknow Super Giants (2023–24) · Punjab Kings (2025–26)",
+      "ipl26": "Punjab Kings, IPL 2026: 2 wickets at the May 2026 snapshot; last listed match vs Delhi Capitals (2/55)",
+      "strength": "Right-arm fast-medium bowler described as a death-overs specialist; 27 IPL wickets with a best of 5/30.",
+      "risk": "IPL economy 10.60 over 22 matches; limited IPL game time in 2025 and 2026.",
+      "source": "https://www.espncricinfo.com/cricketers/yash-thakur-1070196",
+      "ipl26src": "https://www.mykhel.com/cricket/players/yash-thakur-ipl-p13937/",
+      "record": [
+        {"label": "IPL career (LSG, Punjab Kings)", "value": "22 matches · 77.5 overs · 27 wickets · economy 10.60 · best 5/30 · one four-wicket haul (snapshot May 2026)", "url": "https://www.mykhel.com/cricket/players/yash-thakur-ipl-p13937/", "type": "verified"},
+        {"label": "IPL 2024", "value": "11 wickets, including the career-best 5/30", "url": "https://sportsdigest.in/who-is-yash-thakur-career-family-age-and-cricket-journey/199183/amp/", "type": "verified"},
+        {"label": "First-class (Vidarbha)", "value": "93 wickets (as reported mid-2026)", "url": "https://sportsdigest.in/who-is-yash-thakur-career-family-age-and-cricket-journey/199183/amp/", "type": "verified"},
+        {"label": "India", "value": "International debut in 2026; named in the ODI squad for the New Zealand tour (Oct 2026)", "url": "https://en.wikipedia.org/wiki/Yash_Thakur", "type": "verified"},
+        {"label": "Born", "value": "28 Dec 1998, Kolkata; plays for Vidarbha; right-arm fast-medium", "url": "https://www.espncricinfo.com/cricketers/yash-thakur-1070196", "type": "verified"},
+        {"label": "Prior research (SMAT 2025/26)", "value": "SMAT 2025/26: 18 wickets in 7 matches; best 5/16", "url": "", "type": "supplied"}
+      ]
+    },
+    "Chama Milind": {
+      "role": "Left-arm medium-pace bowler",
+      "country": "India",
+      "bat": "Left-hand bat", "bowl": "Left-arm medium",
+      "ipl_teams": "No IPL match played; in squads of Sunrisers Hyderabad (2014–15), Delhi Daredevils (2016) and Royal Challengers Bangalore (2022)",
+      "ipl26": "No IPL 2026 record found",
+      "strength": "Left-arm medium-pacer with a long domestic record; List A: 104 wickets at economy 5.42.",
+      "risk": "No IPL appearances; age 32; public T20 bowling line not retrieved (shown as N/A).",
+      "source": "https://www.espncricinfo.com/cricketers/chama-milind-604616",
+      "ipl26src": "https://www.iplt20.com/teams/royal-challengers-bangalore/squad-details/1751/2022/9",
+      "record": [
+        {"label": "List A (Hyderabad)", "value": "57 matches · 104 wickets · avg 23.12 · economy 5.42 · best 6/43", "url": "https://cricketaddictor.com/player/chama-milind", "type": "verified"},
+        {"label": "First-class (Hyderabad)", "value": "56 matches · 137 wickets · avg 30.76 · economy 3.09 · best 7/44", "url": "https://cricketaddictor.com/player/chama-milind", "type": "verified"},
+        {"label": "All T20 batting", "value": "82 matches · 362 runs · HS 55 · avg 14.48 · SR 140.85 (bowling line: N/A, not retrieved)", "url": "https://www.espncricinfo.com/cricketers/chama-milind-604616", "type": "verified"},
+        {"label": "SMAT Dec 2025", "value": "3/25 vs Rajasthan, 2/36 vs Mumbai, 2/18 vs Bihar", "url": "https://www.espncricinfo.com/cricketers/chama-milind-604616", "type": "verified"},
+        {"label": "IPL", "value": "0 matches (iplt20.com profile); squad stints at SRH, Delhi and RCB without playing", "url": "https://www.iplt20.com/teams/royal-challengers-bangalore/squad-details/1751/2022/9", "type": "verified"},
+        {"label": "Born", "value": "4 Sep 1994, Hyderabad; left-hand bat, left-arm medium", "url": "https://en.wikipedia.org/wiki/Chama_Milind", "type": "verified"},
+        {"label": "Prior research (SMAT 2025/26)", "value": "SMAT 2025/26: 17 wickets in 9 matches", "url": "", "type": "supplied"}
+      ]
+    },
+    "Pathum Nissanka": {
+      "country": "Sri Lanka",
+      "record": [
+        {"label": "IPL 2026 (Delhi Capitals)", "value": "10 matches · 278 runs · avg 27.80 · SR 158.86 · HS 62 · 2 fifties (signed for INR 4 crore)", "url": "https://www.delhicapitals.in/players/66368-pathum-nissanka-profile", "type": "verified"}
+      ]
+    },
+    "Wanindu Hasaranga": {
+      "country": "Sri Lanka",
+      "ipl_teams": "Royal Challengers Bengaluru (2021–23) · Sunrisers Hyderabad (2024, signed; missed season injured) · Rajasthan Royals (2025) · Lucknow Super Giants (2026)",
+      "ipl26": "Lucknow Super Giants: ruled out of IPL 2026 with a hamstring injury in April 2026; 2026 bowling line not verified",
+      "record": [
+        {"label": "IPL career before 2026", "value": "37 matches · 46 wickets · avg 24.32 · economy 8.41 (ESPNcricinfo figures, Dec 2025)", "url": "https://www.newsbytesapp.com/news/sports/ipl-2026-auction-wanindu-hasaranga-to-play-for-lsg/story", "type": "verified"},
+        {"label": "IPL 2025 (Rajasthan Royals)", "value": "11 matches · 11 wickets · avg 33.73 · economy 9.05; bought for INR 5.25 crore", "url": "https://www.rajasthanroyals.com/players/wanindu-hasaranga-profile-65027", "type": "verified"},
+        {"label": "IPL 2021–23 (RCB)", "value": "26 matches · 35 wickets · best 5/18 vs SRH (2022)", "url": "https://www.rajasthanroyals.com/latest-news/wanindu-hasaranga-joins-rajasthan-royals-ipl", "type": "verified"},
+        {"label": "IPL 2026 (LSG)", "value": "Signed for INR 2 crore; ruled out with a hamstring injury (Apr 2026)", "url": "https://www.tribuneindia.com/news/sports/wanindu-hasaranga-ruled-out-of-ipl-2026-lsg-to-name-replacement-soon/", "type": "verified"}
+      ]
+    }
+  }
+}

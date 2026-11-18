@@ -1,0 +1,10 @@
+PASS missing credentials fails closed (503)
+PASS missing credentials + valid-looking auth still 503
+PASS ACCESS_MODE=open explicitly allows
+PASS configured, no auth header -> 401 + challenge
+PASS wrong password -> 401
+PASS wrong user -> 401
+PASS malformed header -> 401
+PASS password containing a colon works
+PASS correct credentials pass through
+TOTAL 9 / 9

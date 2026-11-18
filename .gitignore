@@ -1,0 +1,7 @@
+node_modules
+.env*
+!.env.example
+# Data CSVs are source data for this project and must be committed.
+# Only ignore throwaway exports/QA output:
+qa/**/*.tmp
+.DS_Store

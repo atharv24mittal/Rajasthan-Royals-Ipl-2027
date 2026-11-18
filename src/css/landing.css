@@ -1,0 +1,28 @@
+/* ===== V4 cinematic opening ===== */
+#open{position:fixed;inset:0;z-index:100;background:#010208;overflow:hidden;--k:1}#open.out{pointer-events:none}
+#open .cam{position:absolute;inset:-4%;transform:scale(1.18) translateY(3%);transition:transform 5.2s cubic-bezier(.2,.7,.2,1);will-change:transform}#open.cam1 .cam{transform:scale(1) translateY(0)}
+#open .lay{position:absolute;inset:0;width:100%;height:100%;transition:transform .5s ease-out}
+#open .lay svg{width:100%;height:100%;display:block}
+.sky{opacity:.0;transition:opacity 2.4s}.rev .sky{opacity:1}.stars{opacity:.7}
+.stand,.ground{opacity:0;transition:opacity 1.6s}.em .stand,.em .ground{opacity:1}
+.heritage{opacity:.0;transition:opacity 2s}.rev .heritage{opacity:1}.heritage .lit{opacity:0;transition:opacity 2s .3s}.rev .heritage .lit{opacity:1}
+.tower .head{fill:#40495f;transition:fill .12s}.tower.on .head{fill:#fff;filter:drop-shadow(0 0 10px #fff)}.tower.fl .head{fill:#9aa0c0}
+.beam{opacity:0;transition:opacity .9s}.beam.on{opacity:.55}.rev .beam.on{opacity:.8}
+.haze{position:absolute;inset:0;background:radial-gradient(70% 40% at 50% 78%,#e83e8328,transparent 70%),radial-gradient(60% 30% at 20% 85%,#d8b36822,transparent 70%);opacity:0;transition:opacity 2s}.rev .haze{opacity:1}
+#fx{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;mix-blend-mode:screen}
+.flash{position:absolute;inset:0;background:radial-gradient(60% 50% at var(--fx,70%) var(--fy,50%),#fff,#e83e83aa 30%,transparent 70%);opacity:0;pointer-events:none}.flash.go{animation:fl .9s ease-out}@keyframes fl{0%{opacity:0}18%{opacity:.85}100%{opacity:0}}
+.sweep{position:absolute;inset:0;background:linear-gradient(105deg,transparent 40%,#f0d28a33 50%,transparent 60%);transform:translateX(-120%);pointer-events:none}.sweep.go{animation:sw 1.6s ease-in-out}@keyframes sw{to{transform:translateX(120%)}}
+.vig{position:absolute;inset:0;background:linear-gradient(90deg,#010208d9 0,#010208aa 30%,transparent 62%),radial-gradient(120% 90% at 50% 45%,transparent 45%,#010208 100%),linear-gradient(0deg,#010208 0,transparent 30%);pointer-events:none}
+.lc{position:relative;z-index:5;height:100%;display:flex;flex-direction:column;justify-content:center;padding:0 clamp(24px,6vw,96px);max-width:1100px;pointer-events:none}.lc>*{pointer-events:auto}
+.lc .h1{font-size:clamp(2.3rem,5.6vw,5.2rem);letter-spacing:.005em;margin:20px 0}.lc .ln{display:block;overflow:hidden;padding:.04em 0 .1em}.lc .ln span{display:block;white-space:nowrap;transform:translateY(110%) rotate(2deg);opacity:0;transition:transform 1s var(--ease),opacity .6s;transition-delay:var(--d,0s)}.go2 .lc .ln span{transform:none;opacity:1}
+.lc .eyb,.lc .sup,.lc .ctr{opacity:0;transform:translateY(14px);filter:blur(6px);transition:opacity .9s,transform .9s var(--ease),filter .9s}.go2 .lc .eyb{opacity:1;transform:none;filter:none}.go3 .lc .sup{opacity:1;transform:none;filter:none}.go4 .lc .ctr{opacity:1;transform:none;filter:none}
+.lc .sup{color:#e4e5ef;font-size:clamp(16px,2vw,21px);max-width:540px}
+.ctr{display:flex;gap:18px;align-items:center;flex-wrap:wrap;margin-top:32px}.ctr .cta{transform-origin:left}.go4 .ctr .cta{animation:ctain 1s var(--ease) both}@keyframes ctain{from{transform:scale(.85);box-shadow:0 0 0 #e83e83}60%{box-shadow:0 0 70px 6px #e83e8399}}
+#skip{position:absolute;top:18px;right:18px;z-index:9;font-size:12px;letter-spacing:.12em;text-transform:uppercase;background:#070a13aa;border:1px solid #ffffff33;border-radius:99px;padding:8px 14px;opacity:.9}
+#open .tl{position:absolute;left:0;bottom:0;height:2px;background:linear-gradient(90deg,var(--gold),var(--pink));width:0;z-index:9}
+#open.leave{animation:irisout .9s cubic-bezier(.7,0,.2,1) forwards}@keyframes irisout{from{clip-path:circle(150% at var(--cx,50%) var(--cy,60%))}to{clip-path:circle(0% at var(--cx,50%) var(--cy,60%))}}
+#ring{position:fixed;z-index:101;width:20px;height:20px;border-radius:50%;border:2px solid var(--gold2);left:var(--cx);top:var(--cy);transform:translate(-50%,-50%) scale(0);opacity:0;pointer-events:none}#ring.go{animation:ringx .9s ease-out}@keyframes ringx{0%{opacity:1;transform:translate(-50%,-50%) scale(1)}100%{opacity:0;transform:translate(-50%,-50%) scale(120)}}
+#ballimg{position:absolute;z-index:4;width:clamp(54px,7vw,96px);left:0;top:0;opacity:0;pointer-events:none;will-change:transform;filter:drop-shadow(0 0 22px #e83e83)}
+@media(max-width:700px){.lc{justify-content:flex-end;padding-bottom:64px}.lc .h1{font-size:clamp(2rem,10vw,3.2rem)}.beam{display:none}.beam.m{display:block}}
+.fin .sky,.fin .stand,.fin .ground,.fin .heritage,.fin .heritage .lit,.fin .haze,.fin .ln span,.fin .eyb,.fin .sup,.fin .ctr{transition:none!important}
+@media(max-width:700px){#fx{mix-blend-mode:normal}#open svg g[style*=screen]{mix-blend-mode:normal!important}.tower.on .head{filter:none}#ballimg{filter:none}.cam{transition-duration:3.2s}}
