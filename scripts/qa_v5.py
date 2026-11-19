@@ -59,7 +59,7 @@ with sync_playwright() as p:
         pg.evaluate("show(12)"); pg.wait_for_timeout(1200)
         # REG-01: international prospects have no portraits -> explicit placeholder, no 404 request
         ph = pg.evaluate("[...document.querySelectorAll('#main .pimg.mono')].length")
-        ok(f"REG-01 {w}: 15 international prospects use labelled placeholder", ph == 15, ph)
+        ok(f"REG-01 {w}: 15 international prospects + Gerald Coetzee use labelled placeholder", ph == 16, ph)
         ok(f"REG-01 {w}: placeholders expose accessible name", pg.evaluate("[...document.querySelectorAll('#main .pimg.mono')].every(e=>/No portrait available for/.test(e.getAttribute('aria-label')||''))"))
         ok(f"REG-01 {w}: no 4xx/5xx asset requests in Emerging Gems", not [r for r in reqs if r[0] >= 400], [r for r in reqs if r[0] >= 400][:3])
         # REG-03: the 20 submitted players show 20 distinct loaded portraits

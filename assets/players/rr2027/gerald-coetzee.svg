@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 640" role="img" aria-label="Portrait not yet supplied for Gerald Coetzee">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#101a44"/><stop offset="1" stop-color="#0a1030"/></linearGradient></defs>
+<rect width="480" height="640" fill="url(#g)"/>
+<circle cx="240" cy="250" r="86" fill="none" stroke="#ea1a85" stroke-width="3" opacity=".7"/>
+<text x="240" y="274" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="72" font-weight="700" fill="#c9bfff">GC</text>
+<text x="240" y="430" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="26" font-weight="600" fill="#ffffff">Gerald Coetzee</text>
+<text x="240" y="470" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="17" letter-spacing="3" fill="#9aa3c7">PORTRAIT NOT YET SUPPLIED</text>
+</svg>

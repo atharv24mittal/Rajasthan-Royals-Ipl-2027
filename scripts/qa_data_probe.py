@@ -30,14 +30,25 @@ with sync_playwright() as p:
             ok(f"dossier {pid} {name}: degenerate score shown as N/A, not a number", "N/A" in txt and not re.search(r"Pressure rating\s*[+\-]?0\.00", txt))
         pg.keyboard.press("Escape"); pg.wait_for_timeout(200)
 
+
+    # ---- REG-06/07: the exact final submitted list, in order, and data-copy consistency ----
+    FB = ["Pathum Nissanka","Shimron Hetmyer","Nitish Rana","Nehal Wadhera","Abishek Porel","Rahul Tripathi","Rachin Ravindra","Ackeem Auguste","Sediqullah Atal","Sahil Parakh"]
+    FW = ["Wanindu Hasaranga","Mustafizur Rahman","Avesh Khan","Trent Boult","Matheesha Pathirana","Allah Ghazanfar","Deepak Chahar","Gerald Coetzee","Umran Malik","Chama Milind"]
+    ok("REG-06 batters 1-10 match the final form in order", pg.evaluate("PL.filter(p=>p.kind=='bat').map(p=>p.name)") == FB, pg.evaluate("PL.filter(p=>p.kind=='bat').map(p=>p.name)"))
+    ok("REG-06 bowlers 1-10 match the final form in order", pg.evaluate("PL.filter(p=>p.kind=='bowl').map(p=>p.name)") == FW, pg.evaluate("PL.filter(p=>p.kind=='bowl').map(p=>p.name)"))
+    ok("REG-06 no duplicate player in the 20", len(set(FB + FW)) == 20 and len(set(pg.evaluate("PL.map(p=>p.name)"))) == 20)
+    ok("REG-07 embedded shortlist matches player data (names and order)", pg.evaluate("RR_FINAL_SHORTLIST.batters.map(p=>p.name)") == FB and pg.evaluate("RR_FINAL_SHORTLIST.bowlers.map(p=>p.name)") == FW)
+    ok("REG-07 shortlist ages and DOBs match player data", pg.evaluate("[...RR_FINAL_SHORTLIST.batters,...RR_FINAL_SHORTLIST.bowlers].every(s=>{const p=P3.find(x=>x.name==s.name);return p&&p.age==s.age&&p.date_of_birth==s.date_of_birth})"))
+    ok("REG-07 every submitted portrait file exists and is unique unless a flagged placeholder", pg.evaluate("(()=>{const im=PL.filter(p=>!p.placeholder).map(p=>p.img);return new Set(im).size==im.length&&im.every(Boolean)})()"))
+    ok("REG-07 Ankit Kumar is not in the submitted 20 but stays in the Indian emerging list", pg.evaluate("!PL.some(p=>p.name=='Ankit Kumar') && EMERGING_GEMS.some(g=>g.name=='Ankit Kumar' && /unverified/i.test(g.sample))"))
     # ---- REG-05: corrected research data (no copied template values) ----
     EXPECT = {  # name: (must contain, must NOT contain)
         "Ackeem Auguste": (["West Indies", "Left-hand bat", "Verified public record", "385 runs"], ["10 matches · 278 runs", "ipl.com/player/pathum-nissanka"]),
         "Sediqullah Atal": (["Afghanistan", "Left-hand bat", "MI Cape Town", "Verified public record"], ["10 matches · 278 runs", "ipl.com/player/pathum-nissanka"]),
-        "Salil Arora": (["Sunrisers Hyderabad", "125* off 45", "Verified public record"], ["Delhi Capitals (2026)", "10 matches · 278 runs"]),
-        "Tristan Luus": (["South Africa", "conflicting", "MI Cape Town", "Verified public record"], ["Lucknow Super Giants (2026)", "Royal Challengers Bengaluru (2021"]),
-        "Yash Thakur": (["Punjab Kings", "77.5 overs", "Verified public record"], ["Royal Challengers Bengaluru (2021"]),
         "Chama Milind": (["Left-hand bat", "No IPL match played", "104 wickets", "Verified public record"], ["Lucknow Super Giants (2026)", "Right-arm legbreak"]),
+        "Sahil Parakh": (["India", "Left-hand bat", "Delhi Capitals", "Verified public record", "109*"], ["125* off 45", "Sunrisers Hyderabad (2026)"]),
+        "Gerald Coetzee": (["South Africa", "Right-arm fast", "Rajasthan Royals", "Verified public record", "109 wickets", "Portrait not yet supplied"], ["Delhi Capitals (2026)", "AI-generated illustrative portrait; not an official photograph"]),
+        "Umran Malik": (["29 wickets", "26.62", "5/25", "Unverified", "medical clearance", "Verified public record"], ["Punjab Kings", "Lucknow Super Giants (2023"]),
         "Pathum Nissanka": (["Sri Lanka", "278 runs"], []),
         "Wanindu Hasaranga": (["Sri Lanka", "hamstring", "Rajasthan Royals (2025)", "Lucknow Super Giants (2026)"], ["Right-arm medium"]),
     }

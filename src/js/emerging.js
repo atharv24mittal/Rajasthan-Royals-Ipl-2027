@@ -3,7 +3,7 @@ const EG=window.EMERGING_GEMS||[], RR=window.RR_FINAL_SHORTLIST||{batters:[],bow
 // Portrait helper: only use a portrait that is actually shipped for a submitted player (looked up by name, so it works for file paths and for the standalone build's inlined images). Everyone else gets an explicit placeholder, never a broken-image request.
 const ageTxt=p=>p.age!=null&&p.age!==""?`Age ${p.age} (18 Nov 2026)`:"Age not verified",
   pslug=n=>n.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,''),
-  PORTRAITS=new Map((window.P3||[]).filter(x=>x.img).map(x=>[pslug(x.name),x.img])),
+  PORTRAITS=new Map((window.P3||[]).filter(x=>x.img&&!x.placeholder).map(x=>[pslug(x.name),x.img])),
   pimg=n=>PORTRAITS.has(pslug(n))
     ?`<img class="pimg" src="${PORTRAITS.get(pslug(n))}" alt="AI-generated illustrative portrait of ${n}" width="92" height="112" loading="lazy">`
     :`<div class="pimg mono" role="img" aria-label="No portrait available for ${n}"><span aria-hidden="true">${n.split(/\s+/).filter(Boolean).slice(0,2).map(w=>w[0]).join('').toUpperCase()}</span><small>No portrait</small></div>`;

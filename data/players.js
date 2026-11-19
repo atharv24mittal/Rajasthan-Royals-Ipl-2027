@@ -554,10 +554,10 @@ window.P3 = [
   },
   {
     "id": "BAT10",
-    "name": "Salil Arora",
+    "name": "Sahil Parakh",
     "kind": "bat",
-    "role": "Wicketkeeper / power-hitting batter",
-    "img": "assets/players/rr2027/salil-arora.webp",
+    "role": "Left-hand top-order batter",
+    "img": "assets/players/rr2027/sahil-parakh.webp",
     "sample": 0,
     "pressureSample": 0,
     "score": null,
@@ -591,49 +591,44 @@ window.P3 = [
     "notes": "No player-level Stage 3 pressure record in the supplied release; no score inferred.",
     "research": {
       "country": "India",
-      "bat": "Right-hand bat",
-      "bowl": "N/A (wicketkeeper)",
-      "ipl_teams": "Sunrisers Hyderabad (2026)",
-      "ipl26": "IPL 2026 debut season for SRH: 12 matches per iplt20.com (another tracker lists 14); highest score 35",
-      "source": "https://www.iplt20.com/players/salil-arora/23041",
-      "ipl26src": "https://www.iplt20.com/players/salil-arora/23041",
-      "strength": "Wicketkeeper-batter; unbeaten 125 off 45 balls in SMAT 2025-26 (century off 39).",
-      "risk": "Modest IPL 2026 output (highest score 35); Stage 3 pressure sample far too small to rely on.",
+      "bat": "Left-hand bat",
+      "bowl": "Leg-break",
+      "ipl_teams": "Delhi Capitals (2026)",
+      "ipl26": "IPL 2026 debut season for Delhi Capitals: 3 matches · 22 runs · HS 13 (DC squad page); iplt20.com listed 1 match at an earlier snapshot",
+      "source": "https://www.iplt20.com/players/sahil-parakh/23063",
+      "ipl26src": "https://www.iplt20.com/players/sahil-parakh/23063",
+      "strength": "Left-hand top-order batter and leg-break bowler; signed by Delhi Capitals for INR 30 lakh at 18 and made his IPL debut in 2026.",
+      "risk": "Very small senior sample (a few IPL and domestic T20 matches), around 19 years old, and no usable Stage 3 pressure sample.",
       "record": [
         {
-          "label": "IPL 2026 (Sunrisers Hyderabad)",
-          "value": "Debut season · 12 matches (iplt20.com) · highest score 35 · 11 fours, 11 sixes (tracker); signed for INR 1.5 crore at the 2026 auction",
-          "url": "https://www.iplt20.com/players/salil-arora/23041",
+          "label": "IPL 2026 (Delhi Capitals)",
+          "value": "Debut season; picked for INR 30 lakh at the 2026 auction; debuted vs RCB (match 39) days after a facial injury; 3 matches · 22 runs · HS 13 (DC squad page snapshot; iplt20.com showed 1 match earlier)",
+          "url": "https://www.delhicapitals.in/players/70296-rasikh-salam-profile",
           "type": "verified"
         },
         {
-          "label": "SMAT 2025-26 (Punjab)",
-          "value": "125* off 45 balls vs Jharkhand in the Super 8 (11 Dec 2025); century came off 39 balls",
-          "url": "https://www.wisden.com/series/ipl-2026/cricket-news/who-is-salil-arora-the-srh-batter-who-smashed-125-off-45-against-ishan-kishans-jharkhand",
+          "label": "Domestic T20 (Maharashtra)",
+          "value": "Senior debut in SMAT 2025/26 (6 Dec 2025 vs Uttar Pradesh); 2 T20 matches · 24 runs · SR 114.28 (early-2026 tracker snapshot)",
+          "url": "https://sportsdigest.in/sahil-parakh-profile-age-career-statistics-and-his-ipl-story/190164/amp/",
           "type": "verified"
         },
         {
-          "label": "All T20 (mixed competitions)",
-          "value": "23 matches · 515 runs · HS 125 · avg 39.61 · SR 183.92 (tracker snapshot mid-2026; combines IPL and domestic T20)",
-          "url": "https://www.indiatvnews.com/sports/cricket/player-profile/salil-arora/95940",
+          "label": "India Under-19",
+          "value": "3 youth ODIs · 133 runs · HS 109* · avg 66.50 · SR 126.66",
+          "url": "https://cricketarchive.co.uk/Archive/Players/2762/2762818/2762818.html",
           "type": "verified"
         },
         {
           "label": "Born",
-          "value": "7 Nov 2002, Amritsar, Punjab; right-hand bat, wicketkeeper",
-          "url": "https://www.espncricinfo.com/cricketers/salil-arora-1199281",
+          "value": "7 Jun 2007, Nashik, Maharashtra; left-hand bat, leg-break",
+          "url": "https://www.espncricinfo.com/cricketers/sahil-parakh-1451028",
           "type": "verified"
-        },
-        {
-          "label": "Prior research (SMAT 2025/26)",
-          "value": "SMAT 2025/26: 358 runs in 8 innings at SR 198.88",
-          "url": "",
-          "type": "supplied"
         }
-      ]
+      ],
+      "dob_note": "7 Jun 2007 (iplt20.com date-of-birth field, ESPNcricinfo, Wisden). The iplt20.com biography text also says 11 Apr 2005, which contradicts its own field, so 7 Jun 2007 is used."
     },
-    "age": 24,
-    "date_of_birth": "7 Nov 2002",
+    "age": 19,
+    "date_of_birth": "7 Jun 2007",
     "age_as_of": "2026-11-18"
   },
   {
@@ -1162,10 +1157,10 @@ window.P3 = [
   },
   {
     "id": "BWL08",
-    "name": "Tristan Luus",
+    "name": "Gerald Coetzee",
     "kind": "bowl",
     "role": "Right-arm fast",
-    "img": "assets/players/rr2027/tristan-luus.webp",
+    "img": "assets/players/rr2027/gerald-coetzee.svg",
     "sample": 0,
     "pressureSample": 0,
     "score": null,
@@ -1200,51 +1195,69 @@ window.P3 = [
     "research": {
       "country": "South Africa",
       "bat": "Right-hand bat",
-      "bowl": "Right-arm fast-medium",
-      "ipl_teams": "No IPL appearance found; franchise T20: MI Cape Town (SA20 2025), MI New York (MLC 2025)",
-      "ipl26": "No IPL 2026 record found",
-      "source": "https://www.espncricinfo.com/cricketers/tristan-luus-1385637",
-      "ipl26src": "https://www.espncricinfo.com/cricketers/tristan-luus-1385637",
-      "strength": "Young right-arm fast-medium bowler with SA20 and MLC franchise exposure; 15 wickets in 14 T20s.",
-      "risk": "Small T20 sample (14 matches), no IPL experience, and conflicting date-of-birth listings (provisional).",
+      "bowl": "Right-arm fast",
+      "ipl_teams": "Rajasthan Royals (injury replacement; did not play) · Mumbai Indians (2024) · Gujarat Titans (2025) · Sunrisers Hyderabad (2026, injury replacement for David Payne)",
+      "ipl26": "Signed by Sunrisers Hyderabad in Apr 2026 as an injury replacement for INR 2 crore; IPL 2026 appearances not verified",
+      "source": "https://www.espncricinfo.com/cricketers/gerald-coetzee-596010",
+      "ipl26src": "https://www.tribuneindia.com/news/sports/srh-sign-gerald-coetzee-as-a-replacement-for-david-payne-in-ipl-2026/",
+      "strength": "Right-arm fast bowler (6 ft 3 in) with Test, ODI and T20I experience; 109 T20 wickets at 22.99 as at Apr 2026.",
+      "risk": "IPL economy 10.37 over 14 matches and limited IPL game time; no usable Stage 3 pressure sample. Portrait not yet supplied.",
       "record": [
         {
-          "label": "SA20 (MI Cape Town)",
-          "value": "2 matches · 36 balls · 68 runs conceded · 1 wicket · economy 11.33",
-          "url": "https://www.espncricinfo.com/ci/content/player/1385637.html",
+          "label": "IPL career before 2026",
+          "value": "14 matches · 45.3 overs · 15 wickets · avg 31.47 · economy 10.37 · best 4/34 · one four-wicket haul",
+          "url": "https://www.mykhel.com/cricket/players/gerald-coetzee-ipl-p11439/",
+          "type": "verified"
+        },
+        {
+          "label": "IPL by season",
+          "value": "2024 (Mumbai Indians): 10 matches · 13 wickets · economy 10.24; 2025 (Gujarat Titans): 4 matches · 2 wickets · economy 10.91",
+          "url": "https://www.cricketsky.com/cricket/gerald-coetzee-ipl-p681/",
           "type": "verified"
         },
         {
           "label": "All T20 (mixed competitions)",
-          "value": "14 matches · 264 balls · 385 runs conceded · 15 wickets · avg 25.66 · economy 8.75 · SR 17.6 · best 3/20 (tracker snapshot, early 2026)",
-          "url": "https://khelnow.com/cricket/player/tristan-luus-925",
+          "value": "85 matches · 109 wickets · avg 22.99 · economy 8.74 (snapshot Apr 2026)",
+          "url": "https://www.newsbytesapp.com/news/sports/srh-pick-gerald-coetzee-as-injury-replacement-for-david-payne/story",
+          "type": "verified"
+        },
+        {
+          "label": "T20 Internationals",
+          "value": "18 matches · 22 wickets · economy 9.24 (snapshot Apr 2026)",
+          "url": "https://www.newsbytesapp.com/news/sports/srh-pick-gerald-coetzee-as-injury-replacement-for-david-payne/story",
+          "type": "verified"
+        },
+        {
+          "label": "South Africa (all formats)",
+          "value": "4 Tests · 14 ODIs · 18 T20Is · 67 international wickets (IPL release, Apr 2026)",
+          "url": "https://www.tribuneindia.com/news/sports/srh-sign-gerald-coetzee-as-a-replacement-for-david-payne-in-ipl-2026/",
+          "type": "verified"
+        },
+        {
+          "label": "Other franchise T20",
+          "value": "Texas Super Kings (MLC); Durban's Super Giants (SA20 2026)",
+          "url": "https://en.wikipedia.org/wiki/Gerald_Coetzee",
           "type": "verified"
         },
         {
           "label": "Born",
-          "value": "Pretoria, South Africa; right-hand bat, right-arm fast-medium (South Africa U19 World Cup 2024)",
-          "url": "https://en.wikipedia.org/wiki/Tristan_Luus",
+          "value": "2 Oct 2000, Bloemfontein; right-hand bat, right-arm fast",
+          "url": "https://www.espncricinfo.com/player/gerald-coetzee-596010",
           "type": "verified"
-        },
-        {
-          "label": "Prior research (MLC / CSA T20)",
-          "value": "MLC 2026: 2 wickets in 4 overs, economy 5.25; CSA T20 Challenge 2025: 5 wickets, economy 8.21",
-          "url": "",
-          "type": "supplied"
         }
-      ],
-      "dob_note": "26 Jun 2005 is the date given by ESPNcricinfo and Wikipedia. CricketArchive lists 24 Jun 2005 and Wisden lists 26 Jun 2006, so treat the date as provisional."
+      ]
     },
-    "age": 21,
-    "date_of_birth": "26 Jun 2005 (conflicting listings)",
-    "age_as_of": "2026-11-18"
+    "age": 26,
+    "date_of_birth": "2 Oct 2000",
+    "age_as_of": "2026-11-18",
+    "placeholder": true
   },
   {
     "id": "BWL09",
-    "name": "Yash Thakur",
+    "name": "Umran Malik",
     "kind": "bowl",
-    "role": "Right-arm fast",
-    "img": "assets/players/rr2027/yash-thakur.webp",
+    "role": "Right-arm high-pace bowler",
+    "img": "assets/players/rr2027/umran-malik.webp",
     "sample": 0,
     "pressureSample": 0,
     "score": null,
@@ -1279,54 +1292,66 @@ window.P3 = [
     "research": {
       "country": "India",
       "bat": "Right-hand bat",
-      "bowl": "Right-arm fast-medium",
-      "ipl_teams": "Lucknow Super Giants (2023–24) · Punjab Kings (2025–26)",
-      "ipl26": "Punjab Kings, IPL 2026: 2 wickets at the May 2026 snapshot; last listed match vs Delhi Capitals (2/55)",
-      "source": "https://www.espncricinfo.com/cricketers/yash-thakur-1070196",
-      "ipl26src": "https://www.mykhel.com/cricket/players/yash-thakur-ipl-p13937/",
-      "strength": "Right-arm fast-medium bowler described as a death-overs specialist; 27 IPL wickets with a best of 5/30.",
-      "risk": "IPL economy 10.60 over 22 matches; limited IPL game time in 2025 and 2026.",
+      "bowl": "Right-arm fast",
+      "ipl_teams": "Sunrisers Hyderabad (2021–24) · Kolkata Knight Riders (2025–26, signed for INR 75 lakh)",
+      "ipl26": "No IPL match since 2024: career matches stayed at 26 through mid-2026. Cause of the 2026 absence not confirmed in sources found",
+      "source": "https://www.espncricinfo.com/player/umran-malik-1246528",
+      "ipl26src": "https://www.iplt20.com/players/umran-malik/15154",
+      "strength": "Express pace: 29 IPL wickets in 26 matches, including 22 in IPL 2022 when he won the Emerging Player award.",
+      "risk": "High-upside, high-risk pace option: recurring injuries, no IPL match since 2024, economy 9.40. Fitness, medical clearance and auction registration must be verified.",
       "record": [
         {
-          "label": "IPL career (LSG, Punjab Kings)",
-          "value": "22 matches · 77.5 overs · 27 wickets · economy 10.60 · best 5/30 · one four-wicket haul (snapshot May 2026)",
-          "url": "https://www.mykhel.com/cricket/players/yash-thakur-ipl-p13937/",
+          "label": "IPL career (Sunrisers Hyderabad)",
+          "value": "26 matches · 82.1 overs · 29 wickets · avg 26.62 · economy 9.40 · best 5/25 vs GT · one four-wicket and one five-wicket haul",
+          "url": "https://www.mykhel.com/cricket/players/umran-malik-ipl-p14195/",
           "type": "verified"
         },
         {
-          "label": "IPL 2024",
-          "value": "11 wickets, including the career-best 5/30",
-          "url": "https://sportsdigest.in/who-is-yash-thakur-career-family-age-and-cricket-journey/199183/amp/",
+          "label": "IPL 2022",
+          "value": "14 matches · 22 wickets · avg 20.18 · economy 9.03; IPL Emerging Player of the Season",
+          "url": "https://cricket.one/umran-malik/umran-malik-ipl/67da66c09724cd66d537f9fb",
           "type": "verified"
         },
         {
-          "label": "First-class (Vidarbha)",
-          "value": "93 wickets (as reported mid-2026)",
-          "url": "https://sportsdigest.in/who-is-yash-thakur-career-family-age-and-cricket-journey/199183/amp/",
+          "label": "IPL other seasons",
+          "value": "2021: 3 matches · 2 wickets · 2023: 8 matches · 5 wickets · economy 10.85 · 2024: 1 match · 0/15",
+          "url": "https://www.mykhel.com/cricket/players/umran-malik-ipl-p14195/",
+          "type": "verified"
+        },
+        {
+          "label": "IPL 2025 (Kolkata Knight Riders)",
+          "value": "Bought for INR 75 lakh; missed the whole 2025 season with injury",
+          "url": "https://cricket.one/umran-malik/umran-malik-ipl/67da66c09724cd66d537f9fb",
+          "type": "verified"
+        },
+        {
+          "label": "IPL 2026 availability",
+          "value": "Career match count unchanged at 26 through June 2026, consistent with no 2026 appearance. The scouting brief gives injury as the reason; the sources found do not confirm it, and one report said he was fit for 2026",
+          "url": "https://www.insidesport.in/?p=1206853",
           "type": "verified"
         },
         {
           "label": "India",
-          "value": "International debut in 2026; named in the ODI squad for the New Zealand tour (Oct 2026)",
-          "url": "https://en.wikipedia.org/wiki/Yash_Thakur",
+          "value": "10 ODIs · 13 wickets · avg 30.69 · best 3/57; 8 T20Is · 11 wickets · avg 22.09 · best 3/48",
+          "url": "https://www.newsbytesapp.com/news/sports/umran-malik-shines-on-comeback/story",
           "type": "verified"
         },
         {
           "label": "Born",
-          "value": "28 Dec 1998, Kolkata; plays for Vidarbha; right-arm fast-medium",
-          "url": "https://www.espncricinfo.com/cricketers/yash-thakur-1070196",
+          "value": "22 Nov 1999, Gujjar Nagar, Jammu; right-hand bat, right-arm fast",
+          "url": "https://www.espncricinfo.com/player/umran-malik-1246528",
           "type": "verified"
         },
         {
-          "label": "Prior research (SMAT 2025/26)",
-          "value": "SMAT 2025/26: 18 wickets in 7 matches; best 5/16",
+          "label": "Auction registration",
+          "value": "Unverified. Confirm IPL 2027 auction registration, fitness and medical clearance before relying on him",
           "url": "",
-          "type": "supplied"
+          "type": "unverified"
         }
       ]
     },
-    "age": 27,
-    "date_of_birth": "28 Dec 1998",
+    "age": 26,
+    "date_of_birth": "22 Nov 1999",
     "age_as_of": "2026-11-18"
   },
   {

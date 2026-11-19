@@ -180,7 +180,7 @@
   "detail": ""
  },
  {
-  "name": "dossier BAT10 Salil Arora: full name in heading",
+  "name": "dossier BAT10 Sahil Parakh: full name in heading",
   "pass": true,
   "detail": ""
  },
@@ -190,7 +190,7 @@
   "detail": "[]"
  },
  {
-  "name": "dossier BAT10 Salil Arora: degenerate score shown as N/A, not a number",
+  "name": "dossier BAT10 Sahil Parakh: degenerate score shown as N/A, not a number",
   "pass": true,
   "detail": ""
  },
@@ -275,7 +275,7 @@
   "detail": ""
  },
  {
-  "name": "dossier BWL08 Tristan Luus: full name in heading",
+  "name": "dossier BWL08 Gerald Coetzee: full name in heading",
   "pass": true,
   "detail": ""
  },
@@ -285,12 +285,12 @@
   "detail": "[]"
  },
  {
-  "name": "dossier BWL08 Tristan Luus: degenerate score shown as N/A, not a number",
+  "name": "dossier BWL08 Gerald Coetzee: degenerate score shown as N/A, not a number",
   "pass": true,
   "detail": ""
  },
  {
-  "name": "dossier BWL09 Yash Thakur: full name in heading",
+  "name": "dossier BWL09 Umran Malik: full name in heading",
   "pass": true,
   "detail": ""
  },
@@ -300,7 +300,7 @@
   "detail": "[]"
  },
  {
-  "name": "dossier BWL09 Yash Thakur: degenerate score shown as N/A, not a number",
+  "name": "dossier BWL09 Umran Malik: degenerate score shown as N/A, not a number",
   "pass": true,
   "detail": ""
  },
@@ -316,6 +316,41 @@
  },
  {
   "name": "dossier BWL10 Chama Milind: degenerate score shown as N/A, not a number",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-06 batters 1-10 match the final form in order",
+  "pass": true,
+  "detail": "['Pathum Nissanka', 'Shimron Hetmyer', 'Nitish Rana', 'Nehal Wadhera', 'Abishek Porel', 'Rahul Tripathi', 'Rachin Ravindra', 'Ackeem Auguste', 'Sediqullah Atal', 'Sahil Parakh']"
+ },
+ {
+  "name": "REG-06 bowlers 1-10 match the final form in order",
+  "pass": true,
+  "detail": "['Wanindu Hasaranga', 'Mustafizur Rahman', 'Avesh Khan', 'Trent Boult', 'Matheesha Pathirana', 'Allah Ghazanfar', 'Deepak Chahar', 'Gerald Coetzee', 'Umran Malik', 'Chama Milind']"
+ },
+ {
+  "name": "REG-06 no duplicate player in the 20",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-07 embedded shortlist matches player data (names and order)",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-07 shortlist ages and DOBs match player data",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-07 every submitted portrait file exists and is unique unless a flagged placeholder",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-07 Ankit Kumar is not in the submitted 20 but stays in the Indian emerging list",
   "pass": true,
   "detail": ""
  },
@@ -390,96 +425,6 @@
   "detail": "['https://www.espncricinfo.com/cricketers/sediqullah-atal-1161050', 'https://www.espncricinfo.com/cricketers/sediqullah-atal-1161050']"
  },
  {
-  "name": "REG-05 Salil Arora: shows 'Sunrisers Hyderabad'",
-  "pass": true,
-  "detail": ""
- },
- {
-  "name": "REG-05 Salil Arora: shows '125* off 45'",
-  "pass": true,
-  "detail": ""
- },
- {
-  "name": "REG-05 Salil Arora: shows 'Verified public record'",
-  "pass": true,
-  "detail": ""
- },
- {
-  "name": "REG-05 Salil Arora: no copied value 'Delhi Capitals (2026)'",
-  "pass": true,
-  "detail": ""
- },
- {
-  "name": "REG-05 Salil Arora: no copied value '10 matches \u00b7 278 runs'",
-  "pass": true,
-  "detail": ""
- },
- {
-  "name": "REG-05 Salil Arora: every record link is https and external",
-  "pass": true,
-  "detail": "['https://www.iplt20.com/players/salil-arora/23041', 'https://www.wisden.com/series/ipl-2026/cricket-news/who-is-salil-arora-the-srh-batter-who-smashed-125-off-45-against-ishan-kishans-jharkhand']"
- },
- {
-  "name": "REG-05 Tristan Luus: shows 'South Africa'",
-  "pass": true,
-  "detail": ""
- },
- {
-  "name": "REG-05 Tristan Luus: shows 'conflicting'",
-  "pass": true,
-  "detail": ""
- },
- {
-  "name": "REG-05 Tristan Luus: shows 'MI Cape Town'",
-  "pass": true,
-  "detail": ""
- },
- {
-  "name": "REG-05 Tristan Luus: shows 'Verified public record'",
-  "pass": true,
-  "detail": ""
- },
- {
-  "name": "REG-05 Tristan Luus: no copied value 'Lucknow Super Giants (2026)'",
-  "pass": true,
-  "detail": ""
- },
- {
-  "name": "REG-05 Tristan Luus: no copied value 'Royal Challengers Bengaluru (2021'",
-  "pass": true,
-  "detail": ""
- },
- {
-  "name": "REG-05 Tristan Luus: every record link is https and external",
-  "pass": true,
-  "detail": "['https://www.espncricinfo.com/ci/content/player/1385637.html', 'https://khelnow.com/cricket/player/tristan-luus-925']"
- },
- {
-  "name": "REG-05 Yash Thakur: shows 'Punjab Kings'",
-  "pass": true,
-  "detail": ""
- },
- {
-  "name": "REG-05 Yash Thakur: shows '77.5 overs'",
-  "pass": true,
-  "detail": ""
- },
- {
-  "name": "REG-05 Yash Thakur: shows 'Verified public record'",
-  "pass": true,
-  "detail": ""
- },
- {
-  "name": "REG-05 Yash Thakur: no copied value 'Royal Challengers Bengaluru (2021'",
-  "pass": true,
-  "detail": ""
- },
- {
-  "name": "REG-05 Yash Thakur: every record link is https and external",
-  "pass": true,
-  "detail": "['https://www.mykhel.com/cricket/players/yash-thakur-ipl-p13937/', 'https://sportsdigest.in/who-is-yash-thakur-career-family-age-and-cricket-journey/199183/amp/']"
- },
- {
   "name": "REG-05 Chama Milind: shows 'Left-hand bat'",
   "pass": true,
   "detail": ""
@@ -513,6 +458,121 @@
   "name": "REG-05 Chama Milind: every record link is https and external",
   "pass": true,
   "detail": "['https://cricketaddictor.com/player/chama-milind', 'https://cricketaddictor.com/player/chama-milind']"
+ },
+ {
+  "name": "REG-05 Sahil Parakh: shows 'India'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Sahil Parakh: shows 'Left-hand bat'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Sahil Parakh: shows 'Delhi Capitals'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Sahil Parakh: shows 'Verified public record'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Sahil Parakh: shows '109*'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Sahil Parakh: no copied value '125* off 45'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Sahil Parakh: no copied value 'Sunrisers Hyderabad (2026)'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Gerald Coetzee: shows 'South Africa'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Gerald Coetzee: shows 'Right-arm fast'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Gerald Coetzee: shows 'Rajasthan Royals'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Gerald Coetzee: shows 'Verified public record'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Gerald Coetzee: shows '109 wickets'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Gerald Coetzee: shows 'Portrait not yet supplied'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Gerald Coetzee: no copied value 'Delhi Capitals (2026)'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Gerald Coetzee: no copied value 'AI-generated illustrative portrait; not an official photograph'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Umran Malik: shows '29 wickets'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Umran Malik: shows '26.62'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Umran Malik: shows '5/25'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Umran Malik: shows 'Unverified'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Umran Malik: shows 'medical clearance'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Umran Malik: shows 'Verified public record'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Umran Malik: no copied value 'Punjab Kings'",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "REG-05 Umran Malik: no copied value 'Lucknow Super Giants (2023'",
+  "pass": true,
+  "detail": ""
  },
  {
   "name": "REG-05 Pathum Nissanka: shows 'Sri Lanka'",

@@ -91,14 +91,14 @@
       "date_of_birth": "12 Aug 2001"
     },
     {
-      "name": "Salil Arora",
+      "name": "Sahil Parakh",
       "country": "India",
-      "role": "Wicketkeeper / power-hitting batter",
-      "stats": "SMAT 2025/26: 358 runs in 8 innings at SR 198.88. Stage 3: 10 pressure-eligible balls; +0.36/100, 2.6% reliability — far too small to establish pressure ability.",
+      "role": "Left-hand top-order batter",
+      "stats": "IPL 2026 debut season for Delhi Capitals (3 matches · 22 runs · HS 13 per DC squad page; iplt20.com listed 1 match at an earlier snapshot). India U19: 3 youth ODIs · 133 runs · HS 109*. No usable Stage 3 pressure sample.",
       "status": "INDIAN EMERGING ADDITION",
-      "age": 24,
+      "age": 19,
       "age_as_of": "2026-11-18",
-      "date_of_birth": "7 Nov 2002"
+      "date_of_birth": "7 Jun 2007"
     }
   ],
   "bowlers": [
@@ -173,24 +173,24 @@
       "date_of_birth": "7 Aug 1992"
     },
     {
-      "name": "Tristan Luus",
+      "name": "Gerald Coetzee",
       "country": "South Africa",
       "role": "Right-arm fast",
-      "stats": "MLC 2026: 2 wickets in 4 overs, economy 5.25; CSA T20 Challenge 2025: 5 wickets, economy 8.21",
+      "stats": "All T20: 109 wickets in 85 matches at 22.99, economy 8.74 (Apr 2026). IPL before 2026: 14 matches · 15 wickets · economy 10.37; signed by Sunrisers Hyderabad in Apr 2026 as an injury replacement. No usable Stage 3 pressure sample.",
       "status": "NEW DISCOVERY",
-      "age": 21,
+      "age": 26,
       "age_as_of": "2026-11-18",
-      "date_of_birth": "26 Jun 2005 (conflicting listings)"
+      "date_of_birth": "2 Oct 2000"
     },
     {
-      "name": "Yash Thakur",
+      "name": "Umran Malik",
       "country": "India",
-      "role": "Right-arm fast",
-      "stats": "SMAT 2025/26: 18 wickets in 7 matches; best 5/16. Stage 3: 78 pressure-eligible balls; +0.19/100, 2.8% reliability — below the 120-ball threshold.",
-      "status": "INDIAN EMERGING ADDITION",
-      "age": 27,
+      "role": "Right-arm high-pace bowler",
+      "stats": "IPL career: 29 wickets in 26 matches · avg 26.62 · economy 9.40 · best 5/25; IPL 2022: 22 wickets in 14 matches. No IPL match since 2024. High-upside, high-risk pace option: fitness, medical clearance and auction registration must be verified.",
+      "status": "HIGH-UPSIDE · HIGH-RISK",
+      "age": 26,
       "age_as_of": "2026-11-18",
-      "date_of_birth": "28 Dec 1998"
+      "date_of_birth": "22 Nov 1999"
     },
     {
       "name": "Chama Milind",
